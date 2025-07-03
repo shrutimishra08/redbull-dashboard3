@@ -8,7 +8,7 @@ import plotly.express as px
 st.title("RedBull AI Talent Matching Dashboard")
 
 # Load dataset
-url = "https://raw.githubusercontent.com/yourusername/redbull-data/main/employee_data.csv"  # Replace with your URL
+url = "https://raw.githubusercontent.com/shrutimishra08/redbull-dashboard2/refs/heads/main/employee_data.csv"  # Replace with your URL
 data = pd.read_csv(url)
 
 # Define departments and relevant metrics
